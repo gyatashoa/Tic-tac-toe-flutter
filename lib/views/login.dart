@@ -47,6 +47,7 @@ class Login extends StatelessWidget {
                       alignment: Alignment.centerRight,
                       child: Text("Forgot Password?",
                           style: TextStyle(
+                            fontFamily: "Raleway",
                               color: Colors.white,
                               fontSize: 14,
                               fontWeight: FontWeight.w300)),
@@ -61,7 +62,9 @@ class Login extends StatelessWidget {
                           onPressed: () {},
                           child: Text(
                             "SIGN IN",
-                            style: TextStyle(color: Colors.white),
+                            style: TextStyle(
+                              fontFamily: "Raleway",
+                              color: Colors.white),
                           ),
                           color: Colors.black.withOpacity(0.9),
                         ),
@@ -73,6 +76,7 @@ class Login extends StatelessWidget {
                 Text(
                   "Don't have an account?",
                   style: TextStyle(
+                    fontFamily: "Raleway",
                       color: Colors.white.withOpacity(0.7),
                       fontSize: 14,
                       fontWeight: FontWeight.w300),
@@ -82,6 +86,7 @@ class Login extends StatelessWidget {
                     onTap: () {},
                     child: Text("SIGN UP",
                         style: TextStyle(
+                          fontFamily: "Raleway",
                             fontWeight: FontWeight.w600, color: Colors.white))),
                 SizedBox(
                   height: 10,

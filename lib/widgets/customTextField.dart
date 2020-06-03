@@ -17,6 +17,9 @@ class CustomTextField extends StatelessWidget {
         cursorColor: Colors.black,
         decoration: InputDecoration(
             hintText: hintText,
+            hintStyle: TextStyle(
+              fontFamily: "Raleway"
+            ),
             border: InputBorder.none,
             prefixIcon: Icon(
               icon,
